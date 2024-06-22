@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Liam Brandyberry</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <header></header>
+        <footer></footer>
+        <nav class="sidebar">
+            <a href="#home" class="home-link">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="https://github.com/liamb09" target="_blank">liamb09</a>
+        </nav>
+        <div class="starter">
+            <div class="name-container">
+                <h1 class="first-name">Liam</h1>
+                <h1 class="last-name">Brandyberry</h1>
+            </div>
+        </div>
+        <section id="home">
+            <p class="intro">
+                Welcome! I am a high school student who enjoys creating fun and useful 
+                projects. Here are a few below.
+            </p>
+        </section>
+        <section id="projects">
+            <h1 id="section-header">Projects</h1>
+            <div id="project-list">
+                <div id="project-card" onclick="openDialog(0)">
+                    <h2>Running Log App</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/flutter.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(1)">
+                    <h2>LogRun</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/html.svg" />
+                        <img id="project-icon" src="assets/css.svg" />
+                        <img id="project-icon" src="assets/js.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(2)">
+                    <h2>Life</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/html.svg" />
+                        <img id="project-icon" src="assets/css.svg" />
+                        <img id="project-icon" src="assets/js.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(3)">
+                    <h2>Swimming Scorer</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/python.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(4)">
+                    <h2>Fun Wordplay Projects</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/python.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(5)">
+                    <h2>Gravity Simulator</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/java.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(6)">
+                    <h2>Running Scorer</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/python.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(7)">
+                    <h2>Pong</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/godot.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(8)">
+                    <h2>Algebra II Final Project</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/godot.svg" />
+                    </div>
+                </div>
+                <div id="project-card" onclick="openDialog(9)">
+                    <h2>Portfolio Website</h2>
+                    <div id="project-icons">
+                        <img id="project-icon" src="assets/html.svg" />
+                        <img id="project-icon" src="assets/css.svg" />
+                        <img id="project-icon" src="assets/js.svg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <dialog id="project-info-dialog">
+            <div id="dialog-content">
+                <div id="dialog-details"></div>
+                <br />
+                <button class="close-dialog-btn" onclick="closeDialog()">Close</button>
+            </div>
+        </dialog>
+        <section id="blog">
+            <h1 id="section-header">Blog</h1>
+            <ul id="blog-list">
+                <li>
+                    <a href="https://www.google.com"><article id="blog-list-item">
+                        <div id="blog-list-item-text">
+                            <h1>A blog post</h1>
+                            <p>June 22, 2024</p>
+                            <p>This blog post discusses this blog post.</p>
+                        </div>
+                        <img src="assets/gears.jpeg" alt="post image"/>
+                    </article></a>
+                </li>
+            </ul>
+        </section>
+        <section class="footer-space"></section>
+    </body>
+</html>
