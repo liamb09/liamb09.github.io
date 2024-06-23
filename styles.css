@@ -2,10 +2,12 @@
     --black: #0E0F19;
     --dark-grey: #252741;
     --off-white: #F8F8F8;
+    --light-grey: #C2C2C2;
     --primary: #7EC8B8;
     --title-font-size: 14rem;
     --large-font-size: 1.4rem;
     --section-header-font-size: 3rem;
+    --small-font-size: 1rem;
 }
 
 * {
@@ -239,6 +241,7 @@ section {
 #dialog-details > img {
     width: 30rem;
     box-shadow: 0 0 1rem var(--off-white);
+    border-radius: 1rem;
 }
 
 .python-img {
