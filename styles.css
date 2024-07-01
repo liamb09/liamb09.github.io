@@ -43,10 +43,17 @@ footer {
 }
 
 .sidebar {
-    top: 50%;
-    transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%);
+    display: flex;
     position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    gap: .5rem;
+    top: 1rem;
+}
+
+.sidebar:first-child {
+    top: .5rem;
 }
 
 a {
@@ -57,7 +64,6 @@ nav > a {
     display: block;
     font-size: var(--large-font-size);
     font-weight: bold;
-    margin-top: .5rem;
     margin-left: .5rem;
     color: var(--primary);
     transition: color .2s;
@@ -65,10 +71,6 @@ nav > a {
 
 nav > a:hover {
     color: var(--off-white);
-}
-
-.home-link {
-    margin-top: 0 !important;
 }
 
 .starter {
@@ -334,7 +336,7 @@ section {
         font-size: 10px;
     }
 
-    .sidebar {
+    /* .sidebar {
         display: flex;
         left: 50%;
         transform: translate(-50%, 0%);
@@ -345,7 +347,7 @@ section {
 
     .home-link {
         margin-top: .5rem !important;
-    }
+    } */
 
     .name-container > h1 {
         line-height: 6rem;
