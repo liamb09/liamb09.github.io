@@ -52,10 +52,6 @@ footer {
     top: 1rem;
 }
 
-.sidebar:first-child {
-    top: .5rem;
-}
-
 a {
     text-decoration: none;
 }
@@ -73,7 +69,7 @@ nav > a:hover {
     color: var(--off-white);
 }
 
-.starter {
+#starter {
     margin: 0;
     top: 0;
     display: flex;
