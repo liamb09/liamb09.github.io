@@ -329,25 +329,13 @@ section {
 }
 
 @media (max-width: 480px) {
+
+    :root {
+        --title-font-size: 5rem;
+    }
+
     html {
         font-size: 10px;
-    }
-
-    /* .sidebar {
-        display: flex;
-        left: 50%;
-        transform: translate(-50%, 0%);
-        -ms-transform: translate(-50%, 0%);
-        gap: .5rem;
-        top: .5rem;
-    }
-
-    .home-link {
-        margin-top: .5rem !important;
-    } */
-
-    .name-container > h1 {
-        line-height: 6rem;
     }
 
     .name-container {
@@ -356,8 +344,8 @@ section {
     }
 
     .name-container > h1 {
-        font-size: 6rem;
         margin: 0 auto;
+        line-height: 6rem;
         text-align: center;
     }
 
