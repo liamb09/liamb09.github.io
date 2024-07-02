@@ -152,7 +152,8 @@ section {
 }
 
 #project-icon {
-    width: 2rem;
+    height: 2rem;
+    /* width: 2rem; */
 }
 
 @keyframes fade_in {

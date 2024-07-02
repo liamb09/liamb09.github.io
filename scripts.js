@@ -10,6 +10,7 @@ projectInfo = [
     ["Pong", "This was a simple practice program I made to get used to Godot for my Algebra II final project.", "assets/pong.png", "https://github.com/liamb09/Pong-in-Godot", ["godot"]],
     ["Algebra II Final Project", "This was my Algebra II class's final project, in which I was part of the team that developed games for an arcade cabinet using Godot. My game was similar to Deathball.", "assets/alg2FinalProject.jpeg", "https://github.com/liamb09/Algebra-2-Final-Project-Games", ["godot"]],
     ["Portfolio Website", "This is the very website you are viewing right now! It is made with HTML, CSS, and vanilla Javascript.", "assets/website.png", "https://github.com/liamb09/website", ["html", "css", "js"]],
+    ["Blog", "This is the blog I made with Jekyll, which can be found by clicking \"Blog\" at the top of this page.", "assets/blog.png", "https://github.com/liamb09/blog", ["jekyll"]],
 ]
 
 function openDialog (infoID) {
@@ -20,15 +21,32 @@ function openDialog (infoID) {
     } else if (currentProject[2] == "assets/runningLogApp.png") {
         imgClass = "running-log-app-img"
     }
-    var projectIcons = "";
-    currentProject[4].forEach((element) => {
-        projectIcons += `<img id="project-icon" src="assets/${element}.svg" />`;
-    });
+    var projectIcons = getIcons(infoID);
     document.getElementById("dialog-details").innerHTML = `<h1>${currentProject[0]}</h1><br /><div id="project-icons">${projectIcons}</div><br /><p>${currentProject[1]}</p><br /><img src="${currentProject[2]}" alt="${currentProject[0]}" class="${imgClass}"/><br /><br /><a href="${currentProject[3]}" target="_blank">View ${currentProject[3].split("/")[currentProject[3].split("/").length-1]} on Github &#x2197;</a>`; 
     document.getElementById("project-info-dialog").showModal();
 }
 
+function getIcons (projectID) {
+    var projectIcons = "";
+    projectInfo[projectID][4].forEach((element) => {
+        projectIcons += `<img id="project-icon" src="assets/${element}.svg" />`;
+    });
+    return projectIcons;
+}
+
 window.onload = function() {
+    var projects = "";
+    for (var i = 0; i < projectInfo.length; i++) {
+        projects += `
+                    <div id="project-card" onclick="openDialog(${i})">
+                        <h2>${projectInfo[i][0]}</h2>
+                        <div id="project-icons">
+                            ${getIcons(i)}
+                        </div>
+                    </div>
+                    `;
+    }
+    document.getElementById("project-list").innerHTML = projects;
     dialog = document.getElementById("project-info-dialog")
     dialog.addEventListener('click', (e) => {
         if (e.target.nodeName == "DIALOG") {
