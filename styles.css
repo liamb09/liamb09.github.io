@@ -11,11 +11,12 @@
 }
 
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     scroll-margin-top: 10vh;
 }
 
 html {
+    font-family: Verdana, sans-serif;
     background-color: var(--black);
     scroll-behavior: smooth;
 }
@@ -140,7 +141,6 @@ section {
 }
 
 #project-card > h2 {
-    /* line-height: 12rem; */
     margin: 0;
     margin-bottom: .5rem !important;
 }
