@@ -263,7 +263,7 @@ section {
     border: 1px solid var(--off-white);
     border-radius: 1rem;
     color: var(--off-white);
-    font-size: 1.5rem;
+    font-size: var(--large-font-size);
     padding-left: 1rem;
     padding-right: 1rem;
     transition: all .25s ease-out;
