@@ -1,6 +1,7 @@
 projectInfo = [
     // [title, description, image path, github link, languages]
     ["Rundex", "A running log app made with flutter featuring many capabilities such as adding sets to your workout, custom routes, and more. This is one of my main ongoing projects at the moment.", "assets/rundex.png", "https://github.com/liamb09/Rundex", ["flutter"]],
+    ["Slope Field Generator", "A \"minimalistic\" website that renders slope fields, as well as allowing you to check particular solutions or estimate them using Euler's Method. You can visit it <a href=\"https://liamb09.github.io/slope-field-generator/\" target=\"_blank\">here</a>.", "assets/slope-field-generator.png", "https://github.com/liamb09/slope-field-generator", ["html", "css", "js"]],
     ["LogRun", "This simple running log was one of the first websites I made. It allows you to enter the details of your run, as well as customize the background color and text color on the display page.", "assets/logrun.png", "https://github.com/liamb09/LogRun", ["html", "css", "js"]],
     ["Breathing Exercises", "A Garmin app (specifically developed for the Forerunner 55) that guides you through breathing exercises. At the moment, it has box breathing and 4-7-8 breathing.", "assets/breathingExercises.png", "https://github.com/liamb09/Garmin-Breathing-Exercises", ["connectIQ"]],
     ["Conway's Game of Life", "This is a website I made a while back that simulates the famous Conway's Game of Life.", "assets/conwaysGameOfLife.png", "https://github.com/liamb09/Conway-s-Game-of-Life", ["html", "css", "js"]],

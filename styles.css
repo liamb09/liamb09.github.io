@@ -237,6 +237,12 @@ section {
     margin-top: 0;
 }
 
+#dialog-details > p > a {
+    outline: 0;
+    color: var(--primary);
+    user-select: none;
+}
+
 #dialog-details > img {
     width: 30rem;
     box-shadow: 0 0 1rem var(--off-white);
