@@ -11,7 +11,7 @@ projectInfo = [
     ["Running Scorer", "This python program gives you a score based on a certain mark you have achieved in a given event, per the World Athletics Scoring Table, which indicates how impressive your mark is.", "assets/python.svg", "https://github.com/liamb09/Running-Scorer", ["python"]],
     ["Pong", "This was a simple practice program I made to get used to Godot for my Algebra II final project.", "assets/pong.png", "https://github.com/liamb09/Pong-in-Godot", ["godot"]],
     ["Algebra II Final Project", "This was my Algebra II class's final project, in which I was part of the team that developed games for an arcade cabinet using Godot. My game was similar to Deathball.", "assets/alg2FinalProject.jpeg", "https://github.com/liamb09/Algebra-2-Final-Project-Games", ["godot"]],
-    ["Portfolio Website", "This is the very website you are viewing right now! It is made with HTML, CSS, and vanilla Javascript.", "assets/website.png", "https://github.com/liamb09/website", ["html", "css", "js"]],
+    ["Portfolio Website", "This is the very website you are viewing right now! It is made with HTML, CSS, and vanilla Javascript.", "assets/website.png", "https://github.com/liamb09/liamb09.github.io", ["html", "css", "js"]],
     ["Blog", "This is the blog I made with Jekyll, which can be found by clicking \"Blog\" at the top of this page. You can find out more about how I made it by reading the second blog post.", "assets/blog.png", "https://github.com/liamb09/blog", ["jekyll"]],
 ]
 
