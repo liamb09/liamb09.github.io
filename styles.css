@@ -151,12 +151,15 @@ section {
 
 #project-card:hover {
     box-shadow: inset 25rem 0 0 0 var(--primary);
-    color: var(--background)
 }
 
 #project-card > h2 {
     margin: 0;
     margin-bottom: .5rem !important;
+}
+
+#project-card:hover > h2 {
+    color: var(--background);
 }
 
 #project-icons {
