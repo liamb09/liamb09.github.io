@@ -10,9 +10,7 @@
     </head>
     <h1>{{ page.title }}</h1>
     <p>{{ page.date | date: "%B %-d, %Y" }}</p>
-    <p>Tags: {% for tag in page.tags %}
-        {{ tag }}
-    {% endfor %}</p>
+    <p>Tags: {{ post.tags | join: ", " }}</p>
 
     <div class="blog-body">
         {{ content }}
