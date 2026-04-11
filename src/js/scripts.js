@@ -113,7 +113,6 @@ window.onload = function() {
         div.innerHTML = `
             <a href="${project.link}">${project.title}</a> (${project.languages})
             <p>${project.description}</p>
-            </div>
         `;
 
         container.appendChild(div);

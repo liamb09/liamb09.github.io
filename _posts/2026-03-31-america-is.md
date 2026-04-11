@@ -1,0 +1,19 @@
+---
+layout:      post
+title:       "America Is... Delusionally Obsessive"
+date:        2026-03-31 13:15:00 -0500
+description: An English assignment for school based on a New York Times article.
+tags:        writing
+---
+
+_This was an assignment I did at school for English, in which we were tasked with choosing a piece of culture that exemplified some aspect of America in 2026. It's based on [the New York Times article](https://www.nytimes.com/interactive/2023/06/20/opinion/nyt-columnists-culture.html) of the same title._
+
+## America is Delusionally Obsessive
+
+You see it everywhere. Walk down the street, and you’ll pass people walking their dogs on their phones. Step into school, and students’ necks are invariably craned downwards to their screens. (Apparently walking is not stimulating enough by itself?) It seems now that Americans spend more time on screens than not. And it’s not just about phones either. We’re obsessed with the insignificant lives of celebrities, we fixate on sports betting, and we can’t seem to stop buying the next iPhone. We’re also acutely aware of our situation: we love to talk about how bad social media is for us, and we endlessly discuss how much extensive screen time melts our brains. Yet we persist. Every day, without fail, people get bored of their physics homework, can’t sit through a car ride, or just collapse into their couch at home, and open up Instagram or Youtube. Before they know it, an hour is gone.
+
+Nothing captures this snapshot of America better than Duolingo. It operates under the guise of being educational, but really does little in that regard. Sure, people start Duolingo to learn a language. It’s easy, and it makes you feel smart. But once you get into a habit of it, Duolingo starts keeping track of your “streak:” every day you do a language lesson, you extend your streak by one day. But miss a day, and it goes back down to zero. Once you’ve been doing it for long enough, you can’t bear to lose that streak. That would feel like a failure, a tangible confirmation of your lack of commitment. And in our America where hard work and success is paramount, Duolingo is the perfect trap.
+
+The thing is, after a while of doing Duolingo, it’s less about showing your commitment to learning and more about showing your commitment to the illusion of learning. Towards the end of the pandemic, most of my family and I got on Duolingo for the same reason that everyone else does, but at this point, we hardly try to uphold that illusion. We just do a lesson every day. We even groan at the realization that we haven’t done it yet.
+
+The pattern we see with Duolingo is representative of more than just the app. The fact that watching a little number go up is enough for us to keep at it, the self-deceit that lies in our assuredness of its benefit, and our persistence with it despite our complaints about it completely encapsulate this facet of American culture: our delusional obsession. We of course see it in our addiction to short-form content on social media, which we mislabel as “brain breaks” to make us feel better about it distracting us. We see it in buying popular clothes that make us feel like we fit in. We even see it with politics, in which we stubbornly cling to “our side’s” principles and reject the others’, often with little thought to the actual substance of the arguments. Today, in the age of AI and increasing misinformation online, rather than more intentionally inspecting the information we encounter, it seems that more and more we’re just clinging on to what we’re already obsessed with, blocking everything else off in favor of what we’re comfortable with. And it will always be comfortable to open up your phone, do a lesson on Duolingo, and watch that counter go up one more.

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ page.title }}</title>
+        <link rel="icon" type="image/x-icon" href="{{ 'assets/favicon.svg' | relative_url }}">
+        <link rel="stylesheet" href="{{ 'src/css/styles.css' | relative_url }}" />
+    </head>
+    <body>
+        <h2 id="page-links"><a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="blog.html">Blog</a></h2>
+        <h1>{{ page.title }}</h1>
+
+        {{ content }}
+
+        <br />
+        <p>Liam Brandyberry &copy; 2026 &mdash; 
+            <a id="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a><br>
+            This website was inspired by <a href="https://pbanks.net/">Parker Bank's Webpage</a>.
+        </p>
+    </body>
+</html>

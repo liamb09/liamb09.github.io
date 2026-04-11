@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.svg">
+        <link rel="stylesheet" href="{{ 'src/css/styles.css' | relative_url }}" />
+    </head>
+    <h2 id="page-links"><a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="blog.html">Blog</a></h2>
+    <h1>Blog</h1>
+    Welcome to my blog! I try to write something for this now and then. Usually I write 
+    about my projects, but I'm also hoping to do more running and cooking stuff in the 
+    future. This summer I'm planning to challenge myself to write 100 posts.<br /><br />
+
+    <div id="blog-list">
+        {% for post in site.posts %}
+            <div id="blog-card">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date: "%B %-d, %Y" }})
+                <p>{{ post.description }}</p>
+                <p>Tags: {% for tag in post.tags %}
+                    {{ tag }}
+                {% endfor %}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <br />
+    <p>Liam Brandyberry &copy; 2026 &mdash; 
+        <a id="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a><br>
+        This website was inspired by <a href="https://pbanks.net/">Parker Bank's Webpage</a>.
+    </p>
+</html>
