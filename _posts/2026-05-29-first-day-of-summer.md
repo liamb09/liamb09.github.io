@@ -1,0 +1,13 @@
+---
+layout:      post
+title:       "First Day of Summer"
+date:        2026-05-29 13:30:00 -0500
+description: Elaborating on my writing plans for this summer.
+tags:        writing
+---
+
+School is out as of yesterday, so now I have tons of time to do more personal stuff over the summer. I’m going to be running a ton, and I also got an internship, but outside of that I’d also like to try to write more in this blog. Since April when I redid this site I’ve had a goal at the top of this blog that I’d write 100 posts this summer. I think I saw it on someone else’s blog, and I thought it would be cool. I’ve looked a bit into more rigid challenges online, but I don’t really want to feel forced to write anything. If I were to write 100 posts this summer, that would be a post every day, which especially with travelling is not very realistic. So I think a better angle is to just try to write as often as I can, which will hopefully turn out to be around every day, at least in June.
+
+Looking at some other people’s blogs, this really shouldn’t be that hard to do because a short paragraph can suffice for a post. I think that here, just writing what’s on my mind and trying to make writing more natural will be more productive and more genuine than forcing myself to write lengthy project explanations that I’ve mostly held myself to up to this point. I actually do have another longer post in the works about my physics engine, but it could take a while for that project to get to a point at which I’m ready to write a bigger post about it. More likely I’ll write smaller check-up posts about what I’ve been doing recently on my projects and what I’ve learned, which will be more sustainable.
+
+I’d also love to write more about running and cooking, two hobbies I’ll be doing a lot of this summer, but I’m not sure how. I don’t want to fall into the category of an influencer or “blogger” who just takes pictures of what they’re doing for content rather than enjoying what they’re doing. I might talk about training, but I don’t want this to be very personal. I’m not sure how to convey my passion in a meaningful and appropriate way, which may just mean that these topics are not well suited for this blog and I’m trying to do too much here. I would love to apply computer science to some of my other hobbies, though, so maybe that’s how I can achieve what I’m looking for—a more general collection of my writings about anything I find interesting rather than a strictly rigorous, academic chronicle of my projects.

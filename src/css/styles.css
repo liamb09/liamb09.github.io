@@ -172,6 +172,10 @@ video {
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
+.blog-body {
+    line-height: 1.5;
+}
+
 .blog-body img {
     display: block;
     margin: auto;
