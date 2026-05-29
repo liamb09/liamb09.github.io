@@ -93,12 +93,15 @@ pre {
 
 code {
     padding: 1px 5px;
+    background-color: #ffffff11;
+    border-radius: 3px;
 }
 
 pre > code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+    background-color: transparent;
 }
 
 .highlight {
